@@ -20,7 +20,7 @@
 - name: Lighthouse | Create lighthouse config
   become: true
   template:
-    src: templates/lighthouse.conf.j2
+    src: lighthouse.conf.j2
     dest: /etc/nginx/nginx.conf
     mode: 0644
   notify: reload-nginx

@@ -10,7 +10,7 @@ galaxy_info:
 
 platforms:
 - name: Centos
-    versions:
-      - 7
-      - 8
+  versions:
+    - 7
+    - 8
 
